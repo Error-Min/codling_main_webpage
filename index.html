@@ -1,77 +1,53 @@
+<!--
+    만든이 - 이상민
+    날짜  - 2023/08/02
+    버전  - v002
+    번호  - HD002
+    설명  - 페이지 스크롤 이벤트, 일반 페이드 인 , 다운 페이드 인 
+    반응형 고정 Header 사용
+-->
+
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./static/styles/index.css">
     <script src="./static/javascript/mq_header_v006.js"></script>
-    <title>Codling</title>
+    <link rel="stylesheet" href="./static/styles/index2.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="main_body_all">
-        <header id="header">
-            <!-- 햄버거 메뉴 아이콘 추가 -->
-            <div class="container">
-                <a href="#" class="menu_btn">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </a>
-
-                <div class="logo_img_body">
-                    <img src="./imges/main/codling_main_logo.png" alt="">
-                </div>
-                <ul class="gnb"> <!-- 기본적으로 메뉴를 보이도록 설정 -->
-                    <li id="menu_style1"><a href="#">ABOUT</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li id="menu_style3"><a href="#">CONTACT</a></li>
-                    <li id="menu_style4"><a href="#">CDL STUDIO</a></li>
-                </ul>
+    <div class="body_scroll1">
+        <header>
+            <div id="logo">
+              <img src="./imges/main/codling_main_logo.png" alt="Logo">
             </div>
-            <div class="hd_bg"></div>
-        </header>
-    
-        <div class="main_logo_body">
-            <div class="main_logo">
-                <img src="./imges/main/codling_big_name.png" alt="">
+            <div id="nav-menu">
+              <div id="ellipsis">
+                <img src="./imges/main/dropdown.png" alt="dropdown">
+              </div>
+              <ul id="nav-items">
+                <li class="menu_style1"><a href="#">ABOUT</a></li>
+                <li class="menu_style2"><a href="#">PORTFOLIO</a></li>
+                <li class="menu_style3"><a href="#">CONTACT</a></li>
+                <li class="menu_style4"><a href="#">CDL STUDIO</a></li>
+              </ul>
             </div>
-        </div>
+          </header>
 
-        <div class="main_big_logo_body">
-            <div class="main_big_logo">
-                <img src="./imges/main/main_icon.png" alt="">
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="main_sub_page">
-
-    </div>
-
-    <div class="main_sub_page2">
-
+          <div class="big_logo_body">
+            <img src="./imges/main/codling_big_name.png" alt="Logo">
+          </div>
+          <div class="bit_img_logo_boody">
+            <img src="./imges/main/main_icon.png" alt="Logo">
+          </div>
     </div>
     
+    <div id="scroll-section1">
+        <div id="overlay-text">Scroll down to see me!</div>
+        <div id="overlay-text1">Scroll down to see me!</div>
+    </div>
 
-    <script>
-        // JavaScript로 햄버거 메뉴 토글 기능을 추가합니다.
-        document.addEventListener("DOMContentLoaded", function () {
-            console.log("DOMContentLoaded event fired.");
-            const hamburgerMenu = document.querySelector(".hamburger-menu");
-            const menuBox = document.querySelector(".hader_menu_box_body ul");
-
-            hamburgerMenu.addEventListener("click", function () {
-                console.log("Hamburger menu clicked.");
-                menuBox.classList.toggle("menu-active");
-                // 햄버거 아이콘 모양 변경
-                const bars = hamburgerMenu.querySelectorAll("div");
-                bars.forEach(bar => bar.classList.toggle("change"));
-            });
-        });
-    </script>
 </body>
 </html>

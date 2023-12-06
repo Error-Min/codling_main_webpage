@@ -181,12 +181,26 @@ h1, h3 {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 태블릿 노트북 스타일*/
 @media(min-width: 768px) and (max-width: 1100px) {
     .main_body_all{
         background: url("/imges/main/main1.png");
-        width: 1083px;
-        height: 920px;
+        width: 100%;
+        height: 100%;
         flex-shrink: 0;
     }
     
@@ -301,15 +315,51 @@ h1, h3 {
         width: 300px;
     }
 
+
+    .main_sub_page{
+        background: url("/imges/main/back_img1.png");
+        width: 100%;
+        height: 920px;
+        display: block;
+        margin: 0 auto;
+        flex-shrink: 0;
+    }
+    
+
+    .main_sub_page2{
+        width: 100%;
+        height: 920px;
+        display: block;
+        margin: 0 auto;
+        background-color: darkblue;
+    }
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* 데스크톱 스타일 */
 @media(min-width:1100px) {
     .main_body_all{
         background: url("/imges/main/main1.png");
-        width: 1905px;
-        height: 1080px;
+        width: 100%;
+        height: 1000px;
         display: block;
         flex-shrink: 0;
         margin: 0 auto;
@@ -320,9 +370,6 @@ h1, h3 {
         width: 100%;
         height: 230px;
     }
-
-
-
 
 
     .container{
@@ -404,6 +451,7 @@ h1, h3 {
     }
 
     .main_logo{
+        background-image: url("/imges/main/codling_big_name.png");
         width: 868.67px;
         height: 137.43px;
         display: block;
@@ -420,8 +468,9 @@ h1, h3 {
     }
 
     .main_big_logo{
-        width: 472px;
-        height: 881px;
+        width: auto;
+        height: 100%;
+        background-image: url("/imges/main/main_icon.png");
     }
 
 
@@ -430,7 +479,7 @@ h1, h3 {
 
     .main_sub_page{
         background: url("/imges/main/back_img1.png");
-        width: 1905px;
+        width: 100%;
         height: 1080px;
         display: block;
         margin: 0 auto;
@@ -440,7 +489,7 @@ h1, h3 {
 
     .main_sub_page2{
         background: url("/imges/main/main3.png");
-        width: 1905px;
+        width: 100%;
         height: 1080px;
         display: block;
         margin: 0 auto;
