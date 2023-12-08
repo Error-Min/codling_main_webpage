@@ -37,6 +37,37 @@ $(document).scroll(function() {
   $(document).scroll(function() {
     var y = $(this).scrollTop();
     if (y > 500) {
+      $('#overlay-text1').css({ 'opacity' : '1' });
+    } else {
+      $('#overlay-text1').css({ 'opacity' : '0' });
+    }
+  });
+
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 500) {
+      $('#overlay-text2').css({ 'opacity' : '1' });
+    } else {
+      $('#overlay-text2').css({ 'opacity' : '0' });
+    }
+  });
+
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 500) {
+      $('#overlay-text3').css({ 'opacity' : '1' });
+    } else {
+      $('#overlay-text3').css({ 'opacity' : '0' });
+    }
+  });
+
+
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 500) {
       $('#overlay-text1').addClass('scrolled');
     } else {
       $('#overlay-text1').removeClass('scrolled');
