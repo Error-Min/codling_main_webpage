@@ -204,7 +204,7 @@ body {
 
 
 
-  @media (min-width: 1025px) { /* 현재 메인 */
+  @media (min-width: 1025px) { /* 여기까진 완료 */
     header {
       justify-content: space-between; /* Added */
     }
@@ -295,6 +295,87 @@ body {
       padding: 0px;
       margin: 0px;
     }
+
+    #overlay-text {
+      position: absolute;
+      top: 40%;
+      left: 23%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 40px;
+      opacity: 0;
+      transition: opacity 1s;
+    }
+    
+    #overlay-text1 {
+      position: absolute;
+      top: 40%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 25px;
+      opacity: 0;
+      transition: opacity 1s;
+      width: 370px;
+      height: 180px;
+    }
+    
+    #overlay-text1 p{
+      margin: 0px;
+    }
+    
+    
+    #overlay-text2 {
+      position: absolute;
+      top: 75%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 25px;
+      opacity: 0;
+      transition: opacity 1s;
+      width: 335px;
+      height: 230px;
+    }
+    
+    #overlay-text2 p{
+      margin: 0px;
+    }
+    
+    
+    #overlay-text3 {
+      position: absolute;
+      top: 80%;
+      left: 33%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 25px;
+      opacity: 0;
+      transition: opacity 1s;
+      width: 430px;
+      height: 230px;
+    }
+    
+    #overlay-text3 p{
+      margin: 0px;
+    }
+    
+    
+    #overlay-text1.scrolled {
+        top: 50%;
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
     .scroll_env1{
       width: 240px;
       height: 300px;
@@ -387,6 +468,81 @@ body {
           position: relative;
           z-index: 2;
       }
+
+
+
+
+
+
+      #overlay-text {
+        position: absolute;
+        top: 36%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 60px;
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      
+      #overlay-text1 {
+        position: absolute;
+        top: 40%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 30px;
+        opacity: 0;
+        transition: opacity 1s;
+        width: 370px;
+        height: 300px;
+      }
+      
+      #overlay-text1 p{
+        margin: 0px;
+      }
+      
+      
+      #overlay-text2 {
+        position: absolute;
+        top: 75%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 28px;
+        opacity: 0;
+        transition: opacity 1s;
+        width: 430px;
+        height: 230px;
+      }
+      
+      #overlay-text2 p{
+        margin: 0px;
+      }
+      
+      
+      #overlay-text3 {
+        position: absolute;
+        top: 82%;
+        left: 32%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 28px;
+        opacity: 0;
+        transition: opacity 1s;
+        width: 430px;
+        height: 230px;
+      }
+      
+      #overlay-text3 p{
+        margin: 0px;
+      }
+      
+      
+      #overlay-text1.scrolled {
+          top: 50%;
+          opacity: 1;
+      }
   }
 
 
@@ -394,7 +550,7 @@ body {
 
 
 
-  @media (min-width: 1921px) { 
+  @media (min-width: 1920px) { 
     header {
       justify-content: space-between; /* Added */
 
@@ -419,6 +575,86 @@ body {
     }
 
 
+
+
+
+
+
+
+
+
+
+    #overlay-text {
+      position: absolute;
+      top: 40%;
+      left: 23%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 60px;
+      opacity: 0;
+      transition: opacity 1s;
+    }
+    
+    #overlay-text1 {
+      position: absolute;
+      top: 40%;
+      left: 47.5%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 30px;
+      opacity: 0;
+      transition: opacity 1s;
+      width: 370px;
+      height: 230px;
+    }
+    
+    #overlay-text1 p{
+      margin: 0px;
+    }
+    
+    
+    #overlay-text2 {
+      position: absolute;
+      top: 70%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 28px;
+      opacity: 0;
+      transition: opacity 1s;
+      width: 430px;
+      height: 230px;
+    }
+    
+    #overlay-text2 p{
+      margin: 0px;
+    }
+    
+    
+    #overlay-text3 {
+      position: absolute;
+      top: 77%;
+      left: 28%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 28px;
+      opacity: 0;
+      transition: opacity 1s;
+      width: 430px;
+      height: 230px;
+    }
+    
+    #overlay-text3 p{
+      margin: 0px;
+    }
+    
+    
+    #overlay-text1.scrolled {
+        top: 50%;
+        opacity: 1;
+    }
+
+
   }
 
 
@@ -433,75 +669,7 @@ body {
 
 
 
-#overlay-text {
-    position: absolute;
-    top: 40%;
-    left: 23%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 60px;
-    opacity: 0;
-    transition: opacity 1s;
-}
 
-#overlay-text1 {
-  position: absolute;
-  top: 40%;
-  left: 47.5%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 30px;
-  opacity: 0;
-  transition: opacity 1s;
-  width: 370px;
-  height: 230px;
-}
-
-#overlay-text1 p{
-  margin: 0px;
-}
-
-
-#overlay-text2 {
-  position: absolute;
-  top: 70%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 28px;
-  opacity: 0;
-  transition: opacity 1s;
-  width: 430px;
-  height: 230px;
-}
-
-#overlay-text2 p{
-  margin: 0px;
-}
-
-
-#overlay-text3 {
-  position: absolute;
-  top: 77%;
-  left: 28%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 28px;
-  opacity: 0;
-  transition: opacity 1s;
-  width: 430px;
-  height: 230px;
-}
-
-#overlay-text3 p{
-  margin: 0px;
-}
-
-
-#overlay-text1.scrolled {
-    top: 50%;
-    opacity: 1;
-}
 
 
 
