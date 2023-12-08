@@ -20,12 +20,15 @@ body {
   .body_scroll1{
     background-image: url("/imges/main/main1.png");
     width: 100%;
-    height: 1030px;
-
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   #scroll-section1 {
     background-image: url("../../imges/main/back_img1.png");
+    width: 100%;
+    height: 100vh; 
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -97,6 +100,16 @@ body {
     text-decoration: none;
   }
   
+
+
+
+
+
+
+
+
+
+
   @media (max-width: 600px) {
     header {
       height: 60px;
@@ -130,6 +143,26 @@ body {
     }
   }
   
+
+
+
+/*두 번째 섹션 텍스트 나타나게 하기*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media (min-width: 601px) and (max-width: 1024px) {
     header {
       justify-content: flex-end;
@@ -319,7 +352,7 @@ body {
           height: 137.43px;
           float: left;
           margin-left: 180px;
-          margin-top: 550px;
+          margin-top: 500px;
           display: block;
       }
   
@@ -332,7 +365,7 @@ body {
           float: right;
           display: block;
           margin-right: 200px;
-          margin-top: 250px;
+          margin-top: 150px;
       }
   
       .bit_img_logo_boody img{
@@ -431,35 +464,35 @@ body {
 
 @media (max-width: 600px) {
     #scroll-section {
-        height: 300px;
+        height: 100vh;
     }
     #scroll-section1 {
-        height: 300px;
+        height: 100vh;
     }
   }
   
   @media (min-width: 601px) and (max-width: 1024px) {
     #scroll-section {
-        height: 400px;
+        height: 100vh;
     }
     #scroll-section1 {
-        height: 400px;
+        height: 100vh;
     }
   }
   
   @media (min-width: 1025px) {
 
     #scroll-section1 {
-        height: 1030px;
+        height: 100vh;
     }
   }
   
   @media (min-width: 1921px) {
     #scroll-section {
-        height: 800px;
+        height: 100vh;
     }
     #scroll-section1 {
-        height: 800px;
+        height: 100vh;
     }
     
   }

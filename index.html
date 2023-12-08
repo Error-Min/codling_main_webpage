@@ -18,7 +18,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="body_scroll1">
+    <div class="body_scroll1" id="body_scroll12">
         <header>
             <div id="logo">
               <img src="./imges/main/codling_main_logo.png" alt="Logo">
@@ -45,9 +45,41 @@
     </div>
     
     <div id="scroll-section1">
-        <div id="overlay-text">Scroll down to see me!</div>
-        <div id="overlay-text1">Scroll down to see me!</div>
+        <div id="overlay-text">
+          <p>CODLING</p>
+          <h5>코들링</h5>
+        </div>
+        <div id="overlay-text1">Scroll down to see me!ㄷㄷ</div>
     </div>
 
+
+
+
+
+
+
+
+
+    <script>
+
+      var mHtml = $("html");
+      var page = 1;
+
+
+      mHtml.animate({scrollTop : 0},10);
+
+      $(window).on("wheel", function(e) {
+        if(mHtml.is(":animated")) return;
+        if(e.originalEvent.deltaY > 0) {
+            if(page == 4) return;
+            page++;
+        } else if(e.originalEvent.deltaY < 0) {
+            if(page == 1) return;
+            page--;
+        }
+        var posTop =(page-1) * $(window).height();
+        mHtml.animate({scrollTop : posTop});
+    })
+  </script>
 </body>
 </html>

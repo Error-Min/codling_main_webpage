@@ -27,9 +27,9 @@ $(document).ready(function(){
 $(document).scroll(function() {
     var y = $(this).scrollTop();
     if (y > 500) {
-      $('#overlay-text').css({ 'opacity' : '0' });
-    } else {
       $('#overlay-text').css({ 'opacity' : '1' });
+    } else {
+      $('#overlay-text').css({ 'opacity' : '0' });
     }
   });
 
@@ -42,3 +42,8 @@ $(document).scroll(function() {
       $('#overlay-text1').removeClass('scrolled');
     }
   });
+
+
+
+
+
