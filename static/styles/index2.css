@@ -161,16 +161,16 @@ body {
     }
 
     .big_logo_body{
-      width: 120px;
+      width: 100px;
       height: 137.43px;
       float: left;
       margin-left: 50px;
-      margin-top: 600px;
+      margin-top: 500px;
       display: block;
   }
 
   .big_logo_body img{
-      width: 120px;
+      width: 100px;
   }
 
   .bit_img_logo_boody{
@@ -178,11 +178,11 @@ body {
       float: right;
       display: block;
       margin-right: 50px;
-      margin-top: 500px;
+      margin-top: 400px;
   }
 
   .bit_img_logo_boody img{
-      width: 130px;
+      width: 100px;
       position: relative;
       z-index: 2;
   }
