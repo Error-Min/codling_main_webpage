@@ -164,7 +164,7 @@ body {
       width: 100px;
       height: 20px;
       float: left;
-      margin-left: 50px;
+      margin-left: 20px;
       margin-top: 450px;
       display: block;
   }
@@ -177,8 +177,8 @@ body {
       width: 130px;
       float: right;
       display: block;
-      margin-right: 50px;
-      margin-top: 350px;
+      margin-right: 20px;
+      margin-top: 360px;
   }
 
   .bit_img_logo_boody img{
@@ -241,7 +241,7 @@ body {
   
   #overlay-text3 {
     position: absolute;
-    top: 60%;
+    top: 61%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
