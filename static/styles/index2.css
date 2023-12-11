@@ -207,13 +207,13 @@ body {
     position: absolute;
     top: 40%;
     left: 65%;
-    transform: translate(-50%, -50%);
+    transform: translate(-70%, -110%);
     color: white;
     font-size: 15px;
     opacity: 0;
     transition: opacity 1s;
-    width: 300px;
-    height: 130px;
+    width: 200px;
+    height: 80px;
   }
   
   #overlay-text1 p{
@@ -223,15 +223,15 @@ body {
   
   #overlay-text2 {
     position: absolute;
-    top: 76%;
+    top: 60%;
     left: 80%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 11px;
     opacity: 0;
     transition: opacity 1s;
-    width: 230px;
-    height: 230px;
+    width: 150px;
+    height: 70px;
   }
   
   #overlay-text2 p{
@@ -241,15 +241,15 @@ body {
   
   #overlay-text3 {
     position: absolute;
-    top: 79%;
-    left: 60%;
+    top: 60%;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 11px;
     opacity: 0;
     transition: opacity 1s;
-    width: 430px;
-    height: 230px;
+    width: 160px;
+    height: 40px;
   }
   
   #overlay-text3 p{
