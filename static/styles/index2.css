@@ -112,6 +112,7 @@ body {
 
 
 
+  
 
 
 
@@ -160,28 +161,28 @@ body {
     }
 
     .big_logo_body{
-      width: 200px;
+      width: 120px;
       height: 137.43px;
       float: left;
       margin-left: 50px;
-      margin-top: 550px;
+      margin-top: 600px;
       display: block;
   }
 
   .big_logo_body img{
-      width: 200px;
+      width: 120px;
   }
 
   .bit_img_logo_boody{
-      width: 180px;
+      width: 130px;
       float: right;
       display: block;
       margin-right: 50px;
-      margin-top: 400px;
+      margin-top: 500px;
   }
 
   .bit_img_logo_boody img{
-      width: 180px;
+      width: 130px;
       position: relative;
       z-index: 2;
   }
@@ -194,10 +195,10 @@ body {
   #overlay-text {
     position: absolute;
     top: 30%;
-    left: 13%;
+    left: 20%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     opacity: 0;
     transition: opacity 1s;
   }
@@ -205,10 +206,10 @@ body {
   #overlay-text1 {
     position: absolute;
     top: 40%;
-    left: 60%;
+    left: 65%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     opacity: 0;
     transition: opacity 1s;
     width: 300px;
@@ -223,10 +224,10 @@ body {
   #overlay-text2 {
     position: absolute;
     top: 76%;
-    left: 74%;
+    left: 80%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 17px;
+    font-size: 13px;
     opacity: 0;
     transition: opacity 1s;
     width: 230px;
@@ -240,11 +241,11 @@ body {
   
   #overlay-text3 {
     position: absolute;
-    top: 80%;
-    left: 40%;
+    top: 79%;
+    left: 55%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 17px;
+    font-size: 13px;
     opacity: 0;
     transition: opacity 1s;
     width: 430px;
