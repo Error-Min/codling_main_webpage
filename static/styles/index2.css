@@ -162,7 +162,7 @@ body {
 
     .big_logo_body{
       width: 100px;
-      height: 137.43px;
+      height: 20px;
       float: left;
       margin-left: 50px;
       margin-top: 500px;
@@ -227,7 +227,7 @@ body {
     left: 80%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 13px;
+    font-size: 11px;
     opacity: 0;
     transition: opacity 1s;
     width: 230px;
@@ -242,10 +242,10 @@ body {
   #overlay-text3 {
     position: absolute;
     top: 79%;
-    left: 55%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 13px;
+    font-size: 11px;
     opacity: 0;
     transition: opacity 1s;
     width: 430px;
